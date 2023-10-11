@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@500;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Cairo', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    text-align: center;
+    background: rgb(9,9,121);
+    background: linear-gradient(rgba(9,9,121,1) 0%, rgba(2,0,36,1) 100%);
+    color: white;
+}
+
+.container{
+    padding: 0 15px;
+}
+
+.container h1{
+    font-size: 52px;
+    margin-bottom: 30px;
+    font-weight: 900;
+}
+
+.container a{
+    text-decoration: none;
+    background-color:rgba(9,9,121,1) ;
+    padding: 7px 30px;
+    color: rgba(2,0,36,1);
+    border-radius: 5px;
+    font-size: 22px;
+    font-weight: 900;
+    transition:.3s ease;
+}
+
+.container a:hover , .container p:hover{
+    box-shadow: 0 0 30px 13px rgba(2,0,36,1);
+}
+
+.container p{
+    background-color:rgba(9,9,121,1) ;
+    padding: 7px 30px;
+    color: rgba(2,0,36,1);
+    border-radius: 5px;
+    font-size: 22px;
+    font-weight: 900;
+    transition:.3s ease;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.active{
+    text-decoration: none;
+    background-color:rgba(9,9,121,1) ;
+    padding: 7px 30px;
+    color: rgba(2,0,36,1);
+    border-radius: 5px;
+    font-size: 22px;
+    font-weight: 900;
+    transition:.3s ease;
+}
+
+.active:hover{
+    box-shadow: 0 0 30px 13px rgba(2,0,36,1);
+}
+
+.correct{
+    background-color: green;
+    color: white;
+}
+
+.incorrect{
+    background-color: red;
+    color: white;
+}
+
+button{
+    background-color:rgba(9,9,121,1) ;
+    padding: 7px 30px;
+    color: rgba(2,0,36,1);
+    border-radius: 5px;
+    font-size: 22px;
+    font-weight: 900;
+    transition:.3s ease;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+button:hover{
+    box-shadow: 0 0 30px 13px rgba(2,0,36,1);
+}

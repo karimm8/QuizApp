@@ -1,0 +1,13 @@
+.domain{
+    display: flex;
+    flex-direction: column;
+}
+
+.domain a{
+    margin-bottom: 20px;
+}
+
+.link{
+    margin-top: 20px;
+    display: inline-block;
+}
